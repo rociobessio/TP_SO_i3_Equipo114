@@ -1,0 +1,21 @@
+Responde BETA:
+a-¿Como queda El master después de estos cambios?
+El master tras todos estos cambios contiene los archivos: readme.md, CPUGamma.txt, CPUBeta.txt, datos.txt y beta.txt.
+
+b-¿Beta pudo ver todos los cambios que se realizaron?
+Sí, beta fue capaz de ver todos los cambios realizados por ALFA y GAMMA.
+
+c-¿que debió hacer (todos los comandos) en el punto 5 para poder hacer el merge ?
+git checkout main = Se pasa a la rama (main).
+git merge Ovelar = Hace un merge desde main con la rama de GAMMA (Ovelar).
+git push -u origin main = Sube a main los cambios realizados con el merge. Deberían de aparecer TODOS los archivos creados en Ovelar.
+
+Responde GAMMA:
+d-¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados?
+
+e-¿Detalle (explique) los problemas que tuvieron al hacer el merge?
+
+f-¿que debió hacer (todos los comandos) en el punto 7 para poder hacer lo pedido?
+
+Responde ALFA:
+G-¿que debió hacer(todos los comandos) en el punto 8 para poder hacer lo pedido?
