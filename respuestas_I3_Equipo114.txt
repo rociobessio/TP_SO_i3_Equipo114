@@ -33,3 +33,13 @@ git push origin Bessio
 
 Responde ALFA:
 G-¿que debió hacer(todos los comandos) en el punto 8 para poder hacer lo pedido?
+
+git checkout main
+git pull
+git checkout Bessio
+echo Patricio Perez Cardenal >> beta.txt
+ipconfing >> beta.txt
+echo (hora) >> beta.txt
+git add .
+git commit 
+git push origin Bessio
